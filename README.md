@@ -1,4 +1,4 @@
-# ghtest_project
+# ghtest-project
 test repository of documentation with github actions and github pages
 
 # detail

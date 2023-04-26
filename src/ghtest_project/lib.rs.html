@@ -43,16 +43,20 @@
 <a href="#43" id="43">43</a>
 <a href="#44" id="44">44</a>
 <a href="#45" id="45">45</a>
+<a href="#46" id="46">46</a>
+<a href="#47" id="47">47</a>
 </pre><pre class="rust"><code><span class="doccomment">//! ghtest_project
 //! # Document
 //! 自動でドキュメントを作成して公開するテストです。yay push ayayayay
 
-/// a + b を計算します
-/// # Examples
-/// ```
-/// use crate::ghtest_project::add;
-/// let (a, b) = (3, 2);
-/// assert_eq!(add(a, b), 5);
+</span><span class="attr">#[cfg_attr(doc, aquamarine::aquamarine)]
+</span><span class="doccomment">/// ```mermaid
+/// graph LR
+///     s([Source]) --&gt; a[[aquamarine]]
+///     r[[rustdoc]] --&gt; f([Docs w/ Mermaid!])
+///     subgraph rustc[Rust Compiler]
+///     a -. inject mermaid.js .-&gt; r
+///     end
 /// ```
 </span><span class="kw">pub fn </span>add(a: u64, b: u64) -&gt; u64 {
     a + b

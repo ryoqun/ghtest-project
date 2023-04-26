@@ -1,1 +1,1 @@
-window.SIDEBAR_ITEMS = {"fn":[["add",""],["sub","a - b を計算します"]]};
+window.SIDEBAR_ITEMS = {"fn":[["add","a + b を計算します"],["sub","a - b を計算します"]]};

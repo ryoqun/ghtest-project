@@ -25,3 +25,5 @@ jobs:
       uses: rossjrw/pr-preview-action@v1.4.0
       with:
         source-dir: ./target/doc/
+        deploy-repository: ryoqun/ghtest-project-pr-previews
+

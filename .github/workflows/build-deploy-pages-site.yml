@@ -25,6 +25,6 @@ jobs:
       uses: rossjrw/pr-preview-action@v1.4.0
       with:
         source-dir: ./target/doc/
-        deploy-repository: ryoqun/ghtest-project-pr-previews
+        deploy-repository: ryoqun/ghtest-project-cargo-doc-previews
         token: ${{ secrets.CARGO_DOC_PREVIEW_REPO_TOKEN }}
         umbrella-dir: .

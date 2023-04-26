@@ -1,6 +1,6 @@
 //! ghtest_project
 //! # Document
-//! 自動でドキュメントを作成して公開するテストです。yay
+//! 自動でドキュメントを作成して公開するテストです。yay push
 
 /// a + b を計算します
 /// # Examples

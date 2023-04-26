@@ -26,4 +26,5 @@ jobs:
       with:
         source-dir: ./target/doc/
         deploy-repository: ryoqun/ghtest-project-pr-previews
+        token: ${{ secrets.CARGO_DOC_PREVIEW_REPO_TOKEN }}
 

@@ -1,11 +1,13 @@
 name: Deploy PR previews
 
+concurrency: preview-${{ github.ref }}
 on:
-  push:
-    branches: [ master ]
   pull_request:
-    branches: [ master ]
-
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
 env:
   CARGO_TERM_COLOR: always
 

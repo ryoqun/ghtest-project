@@ -1,6 +1,6 @@
 //! ghtest_project
 //! # Document
-//! 自動でドキュメントを作成して公開するテストです。yay push ayayayay another pr!!!!! test test cargo doc previews
+//! 自動でドキュメントを作成して公開するテストです。yay push ayayayay another pr!!!!! test test cargo doc previews read only
 
 #[cfg_attr(doc, aquamarine::aquamarine)]
 /// ```mermaid

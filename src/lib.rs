@@ -1,6 +1,6 @@
 //! ghtest_project
 //! # Document
-//! 自動でドキュメントを作成して公開するテストです。yay push ayayayaykk
+//! 自動でドキュメントを作成して公開するテストです。yay push ayayayaykk it works
 
 #[cfg_attr(doc, aquamarine::aquamarine)]
 /// ```mermaid

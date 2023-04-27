@@ -1,6 +1,6 @@
 //! ghtest_project
 //! # Document
-//! 自動でドキュメントを作成して公開するテストです。yay push ayayayay
+//! 自動でドキュメントを作成して公開するテストです。yay push ayayayay test from forks1 jjjkkk after becoming collaborator ugh222
 
 #[cfg_attr(doc, aquamarine::aquamarine)]
 /// ```mermaid
@@ -10,6 +10,7 @@
 ///     subgraph rustc[Rust Compiler]
 ///     a -. inject mermaid.js .-> r
 ///     end
+///     x([X]) --> y([Y])
 /// ```
 pub fn add(a: u64, b: u64) -> u64 {
     a + b
@@ -24,6 +25,7 @@ pub fn add(a: u64, b: u64) -> u64 {
 /// let (a, b) = (3, 2);
 /// assert_eq!(sub(a, b), 1);
 /// ```
+/// 👻
 pub fn sub(a: u64, b: u64) -> u64 {
     a - b
 }

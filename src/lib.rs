@@ -1,6 +1,6 @@
 //! ghtest_project
 //! # Document
-//! 自動でドキュメントを作成して公開するテストです。yay push ayayayay test from forks1 jjjkkk
+//! 自動でドキュメントを作成して公開するテストです。yay push ayayayay test from forks1 jjjkkk after becoming collaborator
 
 #[cfg_attr(doc, aquamarine::aquamarine)]
 /// ```mermaid
